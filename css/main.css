@@ -722,6 +722,16 @@ input[type=button] {
     align-items: flex-start;
   }
 
+  .map figure {
+    padding-bottom: 45.5%;
+   
+  }
+  
+  
+
+
+
+
 /*----FAQ----*/
 
 
@@ -817,6 +827,10 @@ input[type=button] {
 
   .contact-content h4 {
     font-size: 1.875em;
+  }
+
+  .map figure {
+    padding-bottom: 37.5%;
   }
 
 /*---------faq-----------*/
