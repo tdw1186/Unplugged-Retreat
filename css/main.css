@@ -357,8 +357,6 @@ input[type=button] {
   background-image: url(../img/rawpixel-800820-unsplash1.jpg);
   background-size: cover;
   background-position: center;
-  
-  
 }
 
 .features h2 {
@@ -387,6 +385,10 @@ input[type=button] {
   text-align: center;
 }
 
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
+}
 
 /*-----Reviews----*/
 
@@ -655,6 +657,10 @@ input[type=button] {
   .features .features-item-description {
     width: 62%;
   }
+
+ 
+
+
  /* Reviews */
 
   .reviews article {
@@ -806,6 +812,9 @@ input[type=button] {
   .features article {
   flex-basis: 33%;
   }
+
+  
+
 
 /*-------reviews--------*/
 
