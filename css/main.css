@@ -613,13 +613,14 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 25%;
 
   }
+
   header nav ul {
     justify-content: space-between;
-  } 
-  
+  }
+
   h2 {
     font-size: 2.25em;
     line-height: 1.333;
@@ -632,6 +633,19 @@ input[type=button] {
 
   
   /*hero *** area*/
+
+
+  .hero-area {
+    min-height: 600px;
+    line-height: 1;
+    margin: 0;
+  }
+
+  .hero-area h1 {
+    font-size: 3em;
+  }
+
+
 
   aside .content-wrapper {
     margin: 50px 0;
@@ -646,6 +660,7 @@ input[type=button] {
         margin: 0;
   }
 
+  
 /*features *** area*/
 
   .features article {
@@ -743,6 +758,7 @@ input[type=button] {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    width: 80%;
   }
 
   .map figure {
@@ -784,6 +800,7 @@ input[type=button] {
 
   h2 {
     font-size: 2.25em;
+    line-height: 1.5em;
   }
 
   h3,
@@ -815,6 +832,9 @@ input[type=button] {
   width: 30%;
   }
 
+  .form-description p {
+    font-size: 1.125em;
+  }
 
 /*----features-----*/
 
@@ -839,7 +859,19 @@ input[type=button] {
     padding-bottom: 50px;
   }  
 
+  footer h4 {
+    font-size: 1.875em;
+  }
+
 /*--------------about page--------------*/
+
+
+
+  .contact-section .contact-wrapper {
+  
+    width: 960px;
+  }
+
 
   .mission h2,
   .contact-section .content-wrapper h2 {
@@ -851,6 +883,12 @@ input[type=button] {
     font-size: 1.875em;
   }
 
+  .contact-content {
+    width: 90%;
+  }
+
+
+  
   .map figure {
     padding-bottom: 37.5%;
   }
@@ -868,15 +906,15 @@ input[type=button] {
       line-height: 1;
   }
 
-}
+
 
 /*--------footer--------*/
 
-footer h4 {
+  footer h4 {
   font-size: 1.875em;
+  }
+
 }
-
-
 
 
 
