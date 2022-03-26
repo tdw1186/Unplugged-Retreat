@@ -583,7 +583,7 @@ input[type=button] {
    Modify as content requires.
    ========================================================================== */
 
-/*-----tablet reponsive----*/
+/*-------------------------------tablet reponsive----------------------------*/
 
 @media only screen and (min-width:768px) {
 
@@ -802,7 +802,7 @@ input[type=button] {
   }
 }
 
-/*---------------------- desktop styles ------------------*/
+/*------------------------------------------ desktop styles -------------------------------------*/
 
 @media only screen and (min-width: 1200px) {
     
@@ -836,8 +836,9 @@ input[type=button] {
   }
 
   .hero-area h1 {
-  width: 80%;
-  font-size: 3.75em;
+    width: 80%;
+    font-size: 3.75em;
+    margin-top: 50px;
   }
 
 
